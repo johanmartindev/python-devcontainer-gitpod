@@ -1,0 +1,1 @@
+exclude = [".devcontainer", ".github", "cms", ".gitpod"]

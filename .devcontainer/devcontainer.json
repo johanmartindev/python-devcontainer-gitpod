@@ -1,9 +1,82 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/python
 {
-	"name": "Python 3",
+	"name": "Kashapp Payment Translator",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/python:1-3.11-bookworm",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/workspace",
+  "customizations": {
+    "vscode": {
+        "peacock.color": "#0a6b4b",
+        "peacock.remoteColor": "#cee781",
+        "mypy-type-checker.importStrategy": "fromEnvironment",
+        "[python]": {
+          "editor.defaultFormatter": "ms-python.black-formatter",
+          "editor.formatOnSave": true
+		},
+		"extensions": [
+      "aaron-bond.better-comments",
+      "ahmadawais.emoji-log-vscode",
+      "albert.TabOut",
+      "aliariff.auto-add-brackets",
+      "AmazonWebServices.aws-toolkit-vscode",
+      "charliermarsh.ruff",
+      "christian-kohler.path-intellisense",
+      "chrmarti.regex",
+      "DavidAnson.vscode-markdownlint",
+      "dbaeumer.vscode-eslint",
+      "devAdvice.serverlessconsole",
+      "donjayamanne.githistory",
+      "EditorConfig.EditorConfig",
+      "eriklynd.json-tools",
+      "esbenp.prettier-vscode",
+      "formulahendry.auto-close-tag",
+      "formulahendry.auto-rename-tag",
+      "GitHub.copilot-chat",
+      "GitHub.copilot",
+      "github.vscode-github-actions",
+      "hbenl.vscode-test-explorer",
+      "howardzuo.vscode-git-tags",
+      "johnpapa.vscode-cloak",
+      "KevinRose.vsc-python-indent",
+      "LittleFoxTeam.vscode-python-test-adapter",
+      "meganrogge.template-string-converter",
+      "mikestead.dotenv",
+      "mrmlnc.vscode-duplicate",
+      "ms-python.black-formatter",
+      "ms-python.debugpy",
+      "ms-python.mypy-type-checker",
+      "ms-python.pylint",
+      "ms-python.python",
+      "ms-python.vscode-pylance",
+      "oderwat.indent-rainbow",
+      "oliversturm.fix-json",
+      "pnp.polacode",
+      "qcz.text-power-tools",
+      "redhat.vscode-yaml",
+      "shardulm94.trailing-spaces",
+      "shd101wyy.markdown-preview-enhanced",
+      "streetsidesoftware.code-spell-checker",
+      "tamasfe.even-better-toml",
+      "vincaslt.highlight-matching-tag",
+      "VisualStudioExptTeam.vscodeintellicode",
+      "waderyan.gitblame",
+      "wholroyd.jinja",
+			"almenon.arepl",
+			"donjayamanne.python-environment-manager",
+			"DotJoshJohnson.xml",
+			"LittleFoxTeam.vscode-python-test-adapter",
+			"ms-python.autopep8",
+			"ms-python.black-formatter",
+			"ms-python.flake8",
+			"njpwerner.autodocstring",
+			"njqdev.vscode-python-typehint",
+			"redhat.vscode-xml",
+			"VisualStudioExptTeam.vscodeintellicode"
+		]
+    }
+  },
 	"features": {
 		"ghcr.io/devcontainers/features/common-utils:2": {
 			"installZsh": true,
@@ -11,10 +84,19 @@
 			"installOhMyZsh": true,
 			"installOhMyZshConfig": true,
 			"upgradePackages": true,
-			"username": "none",
+			"username": "automatic",
 			"userUid": "automatic",
 			"userGid": "automatic"
-		}
+		},
+		"ghcr.io/devcontainers/features/git:1": {
+			"ppa": true,
+			"version": "latest"
+		},
+		"ghcr.io/devcontainers-contrib/features/gh-cli:1": {
+			"version": "latest"
+		},
+		"ghcr.io/joshuanianji/devcontainer-features/github-cli-persistence:1": {},
+		"ghcr.io/prulloac/devcontainer-features/gitlint:1": {}
 	}
 
 	// Features to add to the dev container. More info: https://containers.dev/features.

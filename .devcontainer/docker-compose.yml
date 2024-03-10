@@ -1,0 +1,19 @@
+version: '3.8'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        VARIANT: "3"
+        NODE_VERSION: "lts/*"
+    environment:
+      - SSH_SIGNING_KEY=${SSH_SIGNING_KEY}
+      - NGROK_AUTH_TOKEN=${NGROK_AUTH_TOKEN}
+      - NGROK_DOMAIN=${NGROK_DOMAIN}
+    volumes:
+      - ..:/workspace:cached
+      - vscode-extension-data:/vscode/.vscode-server/extensions:cached
+    command: sleep infinity
+volumes:
+  vscode-extension-data:
