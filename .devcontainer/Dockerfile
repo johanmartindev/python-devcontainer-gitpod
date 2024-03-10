@@ -25,3 +25,6 @@ RUN su vscode -c "source /usr/local/share/nvm/nvm.sh && npm install -g ${NODE_MO
 ARG USERNAME=vscode
 RUN mkdir -p /home/$USERNAME/.vscode-server/extensions \
   && chown -R $USERNAME /home/$USERNAME/.vscode-server
+
+# Install pyenv
+RUN su vscode -c "curl https://pyenv.run | bash"
