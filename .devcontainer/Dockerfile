@@ -28,4 +28,3 @@ RUN mkdir -p /home/$USERNAME/.vscode-server/extensions \
 
 # Install pyenv
 RUN su vscode -c "curl https://pyenv.run | bash"
-RUN su vscode -c "pip install -r requirements.txt"
