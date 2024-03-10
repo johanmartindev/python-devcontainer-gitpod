@@ -4,9 +4,10 @@ image:
 tasks:
   - name: switch to ZSH
     command: |
+      pip install -r requirements.txt
       exec zsh
       bash -lic 'true'
-      pip install -r requirements.txt
+      pre-commit
 vscode:
   extensions:
     - aaron-bond.better-comments
