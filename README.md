@@ -10,6 +10,7 @@
       * https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers
   * Docker installed
 * CTRL+SHIFT+P - `Dev Containers: Reopen in Container`
+![devcontainer](https://github.com/johanmartindev/python-devcontainer-gitpod/assets/42415087/94f6c6ce-410b-4eed-b5c6-d639db1a63ef)
 ### Gitpod.io
 * Requirements:
   * Browser
@@ -19,3 +20,4 @@
 
 ## Setting up a new project
 * `poetry new --src my-new-project`
+
