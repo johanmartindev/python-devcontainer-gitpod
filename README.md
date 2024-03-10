@@ -1,11 +1,21 @@
 # Basic python dev environment (for visual studio code)
-* Basic python environment that uses docker or can be launched from gitpod.io
+* Basic python environment for visual studio code that uses docker locally or gitpod.io for a cloud dev environment
 ## Using the environment
 ### Devcontainer
-* Need to have docker installed
-* Install the `Remote - Containers` extension in visual studio code
-* Open the project in visual studio code
-* CTRL+SHIFT+P - `Remote-Containers: Reopen in Container`
+* Requirements:
+  * Visual studio code
+    * Install the `Dev Containers` extension from Microsoft.
+      * Name: Dev Containers
+      * Id: ms-vscode-remote.remote-containers
+      * https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers
+  * Docker installed
+* CTRL+SHIFT+P - `Dev Containers: Reopen in Container`
 ### Gitpod.io
-* Open the project in gitpod.io
+* Requirements:
+  * Browser
+  * Gitpod.io account
+* https://gitpod.io/?autostart=true#https://github.com/johanmartindev/kashap_translator
+  * Click on link
 
+## Setting up a new project
+* `poetry new --src my-new-project`
