@@ -1,0 +1,21 @@
+[project]
+name = "random-wikipedia-article"
+version = "0.1"
+readme = "README.md"
+authors = [
+  { name = "Johan Martin", email = "martin.johan@nziswano.co.za"},
+  { name = "Andre Hendriks", email = "Andre@fascination.co.za"}
+]
+maintainers = [
+  { name = "Johan Martin", email = "martin.johan@nziswano.co.za"},
+  { name = "Andre Hendriks", email = "Andre@fascination.co.za"}
+]
+description = "A simple command line tool to get a random Wikipedia article"
+requires-python = ">=3.11"
+
+[project.scripts]
+random-wikipedia-article = "random_wikipedia_article:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
