@@ -1,4 +1,4 @@
-ARG VARIANT=3
+ARG VARIANT=3.11
 ARG USERNAME=vscode
 
 FROM mcr.microsoft.com/devcontainers/python:${VARIANT}
