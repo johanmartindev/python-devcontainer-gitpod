@@ -11,7 +11,7 @@ RUN curl -s https://ngrok-agent.s3.amazonaws.com/ngrok.asc | \
 
 USER gitpod
 
-RUN sudo install-packages vim bat httpie fzf thefuck fd-find ngrok
+RUN sudo install-packages vim bat httpie fzf thefuck fd-find ngrok pipx
 
 
 # Setup NVM - Latest lts version

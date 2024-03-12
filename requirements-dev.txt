@@ -6,3 +6,4 @@ black
 mypy
 radon
 poetry
+pyright
