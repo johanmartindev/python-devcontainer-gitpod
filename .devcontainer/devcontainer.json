@@ -25,8 +25,6 @@
       "christian-kohler.path-intellisense",
       "chrmarti.regex",
       "DavidAnson.vscode-markdownlint",
-      "dbaeumer.vscode-eslint",
-      "devAdvice.serverlessconsole",
       "donjayamanne.githistory",
       "EditorConfig.EditorConfig",
       "eriklynd.json-tools",
@@ -40,7 +38,6 @@
       "howardzuo.vscode-git-tags",
       "johnpapa.vscode-cloak",
       "KevinRose.vsc-python-indent",
-      "LittleFoxTeam.vscode-python-test-adapter",
       "meganrogge.template-string-converter",
       "mikestead.dotenv",
       "mrmlnc.vscode-duplicate",
@@ -56,7 +53,6 @@
       "qcz.text-power-tools",
       "redhat.vscode-yaml",
       "shardulm94.trailing-spaces",
-      "shd101wyy.markdown-preview-enhanced",
       "streetsidesoftware.code-spell-checker",
       "tamasfe.even-better-toml",
       "vincaslt.highlight-matching-tag",
@@ -65,15 +61,13 @@
       "wholroyd.jinja",
 			"almenon.arepl",
 			"donjayamanne.python-environment-manager",
-			"DotJoshJohnson.xml",
 			"LittleFoxTeam.vscode-python-test-adapter",
 			"ms-python.autopep8",
 			"ms-python.black-formatter",
 			"ms-python.flake8",
 			"njpwerner.autodocstring",
 			"njqdev.vscode-python-typehint",
-			"redhat.vscode-xml",
-			"VisualStudioExptTeam.vscodeintellicode"
+			"redhat.vscode-xml"
 		]
     }
   },

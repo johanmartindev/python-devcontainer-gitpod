@@ -14,18 +14,20 @@ vscode:
     - ahmadawais.emoji-log-vscode
     - albert.TabOut
     - aliariff.auto-add-brackets
+    - almenon.arepl
     - charliermarsh.ruff
     - christian-kohler.path-intellisense
     - chrmarti.regex
     - DavidAnson.vscode-markdownlint
     - donjayamanne.githistory
+    - donjayamanne.python-environment-manager
     - EditorConfig.EditorConfig
     - eriklynd.json-tools
     - esbenp.prettier-vscode
     - formulahendry.auto-close-tag
     - formulahendry.auto-rename-tag
-    - GitHub.copilot-chat
     - GitHub.copilot
+    - GitHub.copilot-chat
     - github.vscode-github-actions
     - hbenl.vscode-test-explorer
     - howardzuo.vscode-git-tags
@@ -35,33 +37,26 @@ vscode:
     - meganrogge.template-string-converter
     - mikestead.dotenv
     - mrmlnc.vscode-duplicate
+    - ms-python.autopep8
     - ms-python.black-formatter
     - ms-python.debugpy
+    - ms-python.flake8
     - ms-python.mypy-type-checker
     - ms-python.pylint
     - ms-python.python
     - ms-python.vscode-pylance
+    - njpwerner.autodocstring
+    - njqdev.vscode-python-typehint
     - oderwat.indent-rainbow
     - oliversturm.fix-json
     - pnp.polacode
     - qcz.text-power-tools
+    - redhat.vscode-xml
     - redhat.vscode-yaml
     - shardulm94.trailing-spaces
-    - shd101wyy.markdown-preview-enhanced
     - streetsidesoftware.code-spell-checker
     - tamasfe.even-better-toml
     - vincaslt.highlight-matching-tag
     - VisualStudioExptTeam.vscodeintellicode
     - waderyan.gitblame
     - wholroyd.jinja
-    - almenon.arepl
-    - donjayamanne.python-environment-manager
-    - DotJoshJohnson.xml
-    - LittleFoxTeam.vscode-python-test-adapter
-    - ms-python.autopep8
-    - ms-python.black-formatter
-    - ms-python.flake8
-    - njpwerner.autodocstring
-    - njqdev.vscode-python-typehint
-    - redhat.vscode-xml
-    - VisualStudioExptTeam.vscodeintellicode
