@@ -8,3 +8,4 @@ radon
 poetry
 pyright
 commitizen
+cz-conventional-gitmoji
