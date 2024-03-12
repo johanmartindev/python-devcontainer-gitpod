@@ -11,6 +11,8 @@ services:
       - SSH_SIGNING_KEY=${SSH_SIGNING_KEY}
       - NGROK_AUTH_TOKEN=${NGROK_AUTH_TOKEN}
       - NGROK_DOMAIN=${NGROK_DOMAIN}
+      - USERNAME=${USERNAME}
+      - USER_EMAIL=${USER_EMAIL}
     volumes:
       - ..:/workspace:cached
       - vscode-extension-data:/vscode/.vscode-server/extensions:cached
