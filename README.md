@@ -21,3 +21,6 @@
 ## Setting up a new project
 * `poetry new --src my-new-project`
 
+## Setup
+* run `pip install -r requirements-dev.txt` to update to the latest requirements
+* run `pip freeze > requirementst.txt` - setup the latest requirements file
