@@ -13,7 +13,7 @@ click==8.1.7
 colorama==0.4.6
 commitizen==3.18.3
 crashtest==0.4.1
-cryptography==42.0.5
+cryptography==43.0.1
 cz-conventional-gitmoji==0.2.4
 decli==0.6.1
 dill==0.3.8
