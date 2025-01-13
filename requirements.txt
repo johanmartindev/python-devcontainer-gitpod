@@ -76,6 +76,6 @@ tomlkit==0.12.4
 trove-classifiers==2024.3.3
 typing_extensions==4.10.0
 urllib3==2.2.2
-virtualenv==20.25.1
+virtualenv==20.26.6
 wcwidth==0.2.13
 zipp==3.19.1
